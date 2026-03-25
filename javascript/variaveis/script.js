@@ -1,6 +1,6 @@
-idade = 21
+let idade = 21
 
-dataAniversario = '13 de janeiro'
+const dataAniversario = '13 de janeiro'
 
 console.log(dataAniversario)
 console.log('Node.JS', idade)
