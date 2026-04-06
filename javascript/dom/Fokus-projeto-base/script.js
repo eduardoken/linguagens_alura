@@ -9,15 +9,17 @@ const titulo = document.querySelector('.app__title')
 
 focoBt.addEventListener('click', () => {
     html.setAttribute('data-contexto', 'foco')
-    banner.setAttribute('./imagens/foco.png, ')
+    banner.setAttribute('src', './imagens/foco.png')
 })
 
 curtoBt.addEventListener('click', () => {
     html.setAttribute('data-contexto', 'descanso-curto')
+    banner.setAttribute('src','./imagens/descanso-curto.png')
 })
 
 longoBt.addEventListener('click', () => {
     html.setAttribute('data-contexto', 'descanso-longo')
+    banner.setAttribute('src','./imagens/descanso-longo.png')
 })
 
 const duracaoFoco = 1500
