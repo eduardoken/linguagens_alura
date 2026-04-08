@@ -1,5 +1,12 @@
-const valorCompra = 35.9
-const valorPago = 50
+const notaMatematica = 9
+const notaPortugues = 8
+const media = (notaMatematica + notaPortugues)/2
+const aprovado = media >= 7
 
-const troco = valorPago * 10 - valorCompra * 10
-console.log(troco/10)
+if (aprovado == true) {
+    console.log('Aprovado')
+    
+} else {
+    console.log('Reprovado')
+    
+}
