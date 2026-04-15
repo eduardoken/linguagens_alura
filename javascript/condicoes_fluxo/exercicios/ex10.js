@@ -14,4 +14,4 @@ switch (formularioValido) {
         console.log('Por favor, preencha todos os campos corretamente');
         break;
 }
-
+// if else para caso você queria deixar claro que é uma escolha
