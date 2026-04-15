@@ -1,5 +1,20 @@
-const numero = 8
+const opcao = 2
 
-const numeroEPar = numero % 2
+switch (opcao) {
+    case 1:
+        console.log('Cadastrar')
+        
+        break
+    case 2:
+        console.log('Listar')
+        
+        break
+    case 3:
+        console.log('Sair')
+        
+        break
 
-numeroEPar == 0 ? console.log('Numero par') : console.log('Numero impar')
+    default:
+        console.log('Erro')
+        break
+}
