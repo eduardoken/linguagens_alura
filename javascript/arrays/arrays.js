@@ -26,7 +26,7 @@ frutas.forEach((valor, indice) => {
     
 });
 
-console.log('Usando forOff:')
+console.log('Usando forOf:')
 
 for (const fruta of frutas) {
  console.log('fruta da vez:', fruta);
